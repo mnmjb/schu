@@ -1,0 +1,74 @@
+h1 {
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 20px;
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 15px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 15px;
+	text-align: center;
+	font-weight: normal;
+	padding-bottom: 15px;
+}
+
+p {
+	font-size: 15px;
+	text-align: center;
+
+
+}
+
+.kuusitu-submit {
+	background-color: LightCoral;
+	color: #484848;
+	justify-content: center;
+	margin: 0 auto;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 0px 10px;
+	margin-top: 50px;
+	display: flex;
+}
+
+.kuusitu-submit:active {
+	position: relative;
+	top: 7px;
+	box-shadow: none;
+}
+
+.body-r {
+	font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic' ;
+	background-image: url(ODYF3643.JPG);
+	color: #ffffff;
+}
+
+.view {
+	font-size: 25px;
+	text-align: center;
+	padding: 70px;
+}
+
+.tittle {
+	font-size: 20px;
+	text-align: center;
+	padding: 70px;
+}
+
+.header-logo a {
+	color: white;
+	font-size: 50px;
+	text-decoration: none;
+}
+
+.information h4 {
+	font-size: 15px;
+	text-align: center;
+	font-weight: normal;
+	padding-bottom: 200px;
+}

@@ -1,0 +1,170 @@
+.header {
+  color: white;
+  background-color: rgba(233, 150, 122, 0.5);
+  font-size: 50px;
+  height: 80px;
+  top: 0;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-size: cover;
+  float: left;
+}
+
+.header-logo {
+  float: left;
+}
+
+li {
+  list-style: none;
+  float: right;
+  display: inline;
+  color : MediumVioletRed;
+  position: fixed;
+  right: 50px;
+    bottom: 50px;
+    font-size: medium;
+}
+
+body {
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic' 
+}
+
+.main {
+  background-image: url(HNXA2890.JPG);
+  background-size: 100%;
+  color: #000000;
+}
+.btn {
+  border: 1px solid LightCoral;
+  border-radius: 5px;
+  background-color: LightCoral;
+  padding: 20px;
+  color: white;
+  width: 150px;
+  font-family:'Impact'; 
+}
+
+.btn:hover {
+  background-color: #b22222;
+}
+
+.btn1 {
+    display: flex;
+      width: 150px;
+      background-color: #484848;
+      color: #fff;
+      font-size: 16px;
+      padding: 12px 0;
+      cursor: pointer;
+      border: 0.5px solid rgba(255, 255, 255,0.8);
+      padding: 10px;
+      font-family:'cursive';
+      text-align: center;
+      justify-content: center;
+      margin: 0 auto;
+      margin-top: 30px;
+      border-radius: 5px;
+}
+
+.btn1:hover {
+  background-color: #CD5C5C;
+}
+
+li {
+  list-style: none;
+  float: left;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 15px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 15px;
+  text-align: center;
+  font-weight: normal;
+}
+
+span {
+  font-weight: bold;
+}
+
+.main,.about,.cafe,.onsen,.room,.access,.contact-form {
+  background-size: 100%;
+  padding: 50px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+.about {
+  text-align: right;
+  background-image: url(OLHN5121.JPG);
+}
+
+.cafe {
+  background-image: url(PJEN1040.JPG);
+}
+
+.cafe h2 {
+  color: #ffffff;
+}
+.onsen {
+  background-image: url(BTYA2546.JPG);
+}
+
+.room {
+  background-image: url(RJUV5238.JPG);
+}
+
+.access {
+  background-image: url(DSC_2042.JPG);
+  background-size: cover;
+  color: #ffffff;
+}
+
+.contact-form {
+  background-image: url(IHEB0759.JPG);
+  text-align: center;
+}
+
+input,textarea {
+  width: 400px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 20px;
+  font-size: 18px;
+  border: 3px solid #dee7ec;
+  
+}
+
+.contact-submit {
+  background-color: LightCoral;
+  color: #484848;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0px 10px;
+  margin-top: 50px;
+}
+
+.contact-submit:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.footer {
+  background-color: #323232;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
